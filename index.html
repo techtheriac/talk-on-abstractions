@@ -12,6 +12,11 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.font-sm {
+				font-size: 75% !important;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
@@ -164,6 +169,25 @@
 						<div>
 							<h1>Functional programming & A knob for composition</h1>
 						</div>
+					</section>
+					<section>
+						<div>
+							<p>const compose = (f, g) => (x) => f(g(x));</p>
+							<p><a href="https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45">https://gist.github.com/Avaq/1f0636ec5c8d6aed2e45</a></p>
+						</div>
+					</section>
+					<section>
+						<pre>
+							<code data-line-numbers="1|2|3|4|5">
+								const compose = (f, g) => (x) => f(g(x));
+								const increasebyThree = (x) => x * 3;
+								const stringify = (x) => x.toString();
+								const printComputation = compose(stringify, increasebyThree)
+							</code>
+						</pre>
+					</section>
+					<section>
+						<p></p>
 					</section>
 				</section>
 			</div>
