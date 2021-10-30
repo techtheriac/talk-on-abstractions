@@ -13,13 +13,13 @@
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Franklin Jezreel",
+    "email": "techtheriac@outlook.com",
+    "web": "https://jezreel.tech"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com:techtheriac/talk-on-abstractions.git"
   },
   "engines": {
     "node": ">=10.0.0"
